@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using GeometryGym.Ifc;
 
-var db = new DatabaseIfc(ReleaseVersion.IFC4X3_RC4);
+var db = new DatabaseIfc(ReleaseVersion.IFC4X3);
 var site = new IfcSite(db, "Z1");
 site.Description = "Zone 1 - Kingsway";
 
